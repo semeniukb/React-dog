@@ -1,5 +1,5 @@
 import { createTheme } from '@mui/material/styles';
-import { MuiButtonConfig } from './button.config';
+import { MuiButtonConfig } from './CustomConfig/button.config.ts';
 
 // A custom theme for this app
 const theme = createTheme({
@@ -17,6 +17,7 @@ const theme = createTheme({
       // secondary: "#FFFFFF",
     },
     grey: {
+      50: "#FCFAFA",
       100: '#FBFAFC',
       300: '#E6E6E6',
       500: '#ADA7B8'

@@ -6,7 +6,7 @@ const meta = {
   component: Button,
   argTypes: {
     variant: {
-      options: ['contained', 'outlined'],
+      options: [],
       control: 'radio'
     }
   }
@@ -24,7 +24,24 @@ export const Primary: Story = {
 
 export const Secondary: Story = {
   args: {
+    variant: 'contained',
+    color: 'secondary',
+    children: 'Button'
+  }
+};
+
+export const Outlined: Story = {
+  args: {
     variant: 'outlined',
     children: 'Button'
   }
 };
+
+export const OutlinedSecondary: Story = {
+  args: {
+    variant: 'outlined',
+    color: 'secondary',
+    children: 'Button'
+  }
+};
+
