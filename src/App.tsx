@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { Button } from '@mui/material';
-import Arrow from './assets/icons/Arrow.svg?react'
 import reactLogo from './assets/react.svg';
-import { SvgIcon } from '@mui/material';
 import './App.css';
 
 function App() {
@@ -23,8 +21,9 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
-          <Button  variant="contained" color="secondary">Goldendoodle</Button>
-          <img src={Arrow} className="logo react" alt="React logo" />
+        <Button variant="contained" color="secondary">
+          Goldendoodle
+        </Button>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more

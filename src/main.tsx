@@ -8,6 +8,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <DogAppThemeProvider>
       <App />
+
+
+      
     </DogAppThemeProvider>
   </React.StrictMode>
 );
